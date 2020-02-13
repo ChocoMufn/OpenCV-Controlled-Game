@@ -1,4 +1,4 @@
-"""Fruit Catcher Vision | ObjectDetection.py | Vraj and Vithushan
+"""Fruit Catcher Vision | ObjectDetection.py
 
 This file is responsible for all the computing behind the vision aspects of the game. All the object detection  and
 tracking work from webcam input is done here. The Game file calls the get_move method from this file.
@@ -10,7 +10,6 @@ import numpy
 
 def filter_green(frame):
     """
-    Vithushan
 
     Filters out green from video input.
 
@@ -42,7 +41,6 @@ def filter_green(frame):
 
 def get_contours(frame):
     """
-    Vraj
 
     Finds edged of filtered out objects and makes contours around them. Filtered out objects must be bigger than 5 by
     5 pixles
@@ -72,7 +70,6 @@ def get_contours(frame):
 
 def get_bounding_rect(video_input):
     """
-    Vraj
 
     Draws a bounding rectangle areas with contours.
 
@@ -121,7 +118,6 @@ def get_bounding_rect(video_input):
 
 def get_move(webcam):
     """
-    Vraj
 
     Move value is determined.
 

@@ -1,4 +1,4 @@
-"""Fruit Catcher Game | Game.py | Vraj and Vithushan
+"""Fruit Catcher Game | Game.py
 
 This file is responsible for all the graphics and game mechanics.
 
@@ -44,7 +44,7 @@ clock = pygame.time.Clock()
 
 class Basket(object):
     """
-    Vithushan
+
 
     Basket Class
 
@@ -77,7 +77,7 @@ class Basket(object):
 
     def __init__(self, x, y):
         """
-        Vithushan
+
 
         Basket object constructor
 
@@ -96,7 +96,7 @@ class Basket(object):
 
     def draw(self, screens):
         """
-        Vithushan
+
 
         Drawing/displaying basket onto screen
 
@@ -112,7 +112,7 @@ class Basket(object):
 
 class Fruit(object):
     """
-    Vraj
+
 
     Fruit super class
 
@@ -142,7 +142,7 @@ class Fruit(object):
 
     def __init__(self, x, y):
         """
-        Vraj
+
 
         Fruit object constructor
 
@@ -161,7 +161,7 @@ class Fruit(object):
 
     def draw(self, screens):
         """
-        Vraj
+
 
         Drawing/displaying fruit onto screen
 
@@ -176,7 +176,7 @@ class Fruit(object):
 
 class Strawberry(Fruit):
     """
-    Vraj
+
 
     Strawberry sub class of Fruit
 
@@ -211,7 +211,7 @@ class Strawberry(Fruit):
 
     def draw(self, screens):
         """
-        Vraj
+
 
         Drawing/displaying strawberry onto screen
 
@@ -230,7 +230,7 @@ class Strawberry(Fruit):
 
 class Apple(Fruit):
     """
-    Vraj
+
 
     Apple sub class of Fruit
 
@@ -266,7 +266,7 @@ class Apple(Fruit):
 
     def draw(self, screens):
         """
-        Vraj
+
 
         Drawing/displaying apple onto screen
 
@@ -285,7 +285,7 @@ class Apple(Fruit):
 
 class Pineapple(Fruit):
     """
-    Vraj
+
 
     Pineapple sub class of Fruit
 
@@ -320,7 +320,7 @@ class Pineapple(Fruit):
 
     def draw(self, screens):
         """
-        Vraj
+
 
         Drawing/displaying pineapple onto screen
 
@@ -339,7 +339,7 @@ class Pineapple(Fruit):
 
 def text_objects(text, color, size):
     """
-    Vithushan
+
 
     Font sizes for messages and texts
 
@@ -371,7 +371,7 @@ def text_objects(text, color, size):
 
 def text_to_button(msg, color, x, y, width, height, size="small"):
     """
-    Vithushan
+
 
     Displaying text to button
 
@@ -411,7 +411,7 @@ def text_to_button(msg, color, x, y, width, height, size="small"):
 
 def message_to_screen(msg, y_displace=0, size="small", color=black,):
     """
-    Vithushan
+
 
     Displaying text on screen
 
@@ -441,7 +441,7 @@ def message_to_screen(msg, y_displace=0, size="small", color=black,):
 
 def score(scores):
     """
-    Vraj
+
 
     Displaying of scores
 
@@ -460,7 +460,7 @@ def score(scores):
 
 def life(lives):
     """
-    Vraj
+
 
     Displaying of lives
 
@@ -478,7 +478,7 @@ def life(lives):
 
 def pause():
     """
-    Vithushan
+
 
     In game pause screen
 
@@ -514,7 +514,7 @@ def pause():
 
 def button(msg, x, y, width, height, inactive, active, action=None):
     """
-    Vithushan
+
 
     Button maker
 
@@ -577,7 +577,7 @@ def button(msg, x, y, width, height, inactive, active, action=None):
 
 def game_intro():
     """
-    Vithushan
+
 
     Home Screen Page
 
@@ -604,7 +604,7 @@ def game_intro():
 
 def information():
     """
-    Vraj
+
 
     Information Page
 
@@ -636,7 +636,7 @@ def information():
 
 def modes():
     """
-    Vithushan
+
 
     Game mode selector
 
@@ -669,7 +669,7 @@ def modes():
 
 def normal():
     """
-    Vithushan
+
 
     Normal game mode
 
@@ -784,7 +784,7 @@ def normal():
 
 def hard():
     """
-    Vithushan
+
 
     Hard game mode
 
